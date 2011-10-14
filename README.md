@@ -2,8 +2,28 @@
 
 Packages that can be installed with [chocolatey](http://chocolatey.org)
 
-# Example
+# How do I use it?
 
+First, install chocolatey if you haven't already. From a powershell command prompt:
 <pre>
-cinst virtualbox
+&gt; Set-ExecutionPolicy Unrestricted
+&gt; iex ((new-object net.webclient).DownloadString("http://bit.ly/psChocInstall"))
 </pre>
+
+Afterwards you may want to set your execution policy back to something more secure:
+<pre>
+&gt; Set-ExecutionPolicy RemoteSigned
+</pre>
+
+Next, install a package:
+<pre>
+&gt; cinst vagrant
+</pre>
+
+JRuby and putty will be on your path when the installation finishes. VirtualBox and the vagrant gem
+will also be installed [Set up a vagrant box](http://vagrantup.com/docs/getting-started/index.html) and then run:
+<pre>
+&gt; putty -load vagrant
+</pre>
+
+This will SSH you into your VM.
