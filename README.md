@@ -22,7 +22,7 @@ Next, install a package:
 
 JRuby and putty will be on your path when the installation finishes. VirtualBox and the vagrant gem
 will also be installed. [Set up a vagrant box](http://vagrantup.com/docs/getting-started/index.html),
-install the [vagrant putty plugin](), and then run:
+install the [vagrant putty plugin](https://github.com/mdellanoce/vagrant-putty), and then run:
 <pre>
 vagrant putty
 </pre>
