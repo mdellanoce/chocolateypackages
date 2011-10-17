@@ -21,9 +21,10 @@ Next, install a package:
 </pre>
 
 JRuby and putty will be on your path when the installation finishes. VirtualBox and the vagrant gem
-will also be installed [Set up a vagrant box](http://vagrantup.com/docs/getting-started/index.html) and then run:
+will also be installed. [Set up a vagrant box](http://vagrantup.com/docs/getting-started/index.html),
+install the [vagrant putty plugin](), and then run:
 <pre>
-&gt; putty -load vagrant
+vagrant putty
 </pre>
 
-This will SSH you into your VM.
+This will SSH you into your VM with putty.
