@@ -9,7 +9,7 @@
     <summary>Vagrant is a tool for building and distributing virtualized development environments.</summary>
     <description>Vagrant is a tool for building and distributing virtualized development environments.</description>
     <projectUrl>http://vagrantup.com</projectUrl>
-    <tags>vagrant chocolatey admin</tags>
+    <tags>vagrant</tags>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<dependencies>
       <dependency id="jruby" version="1.6.4" />
