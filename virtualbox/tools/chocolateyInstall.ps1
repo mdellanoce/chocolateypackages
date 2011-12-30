@@ -1,1 +1,1 @@
-Install-ChocolateyPackage "virtualbox" "exe" "-s" "http://download.virtualbox.org/virtualbox/4.1.4/VirtualBox-4.1.4-74291-Win.exe"
+Install-ChocolateyPackage "virtualbox" "exe" "-s" "http://download.virtualbox.org/virtualbox/4.1.6/VirtualBox-4.1.6-74713-Win.exe"
