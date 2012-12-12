@@ -3,7 +3,7 @@
   <metadata>
     <id>vagrant</id>
     <title>Vagrant</title>
-    <version>0.8.0</version>
+    <version>1.0.5</version>
     <authors>Mitchell Hashimoto and John Bender</authors>
     <owners>Mike Dellanoce</owners>
     <summary>Vagrant is a tool for building and distributing virtualized development environments.</summary>
@@ -12,9 +12,8 @@
     <tags>vagrant</tags>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<dependencies>
-      <dependency id="jruby" version="1.6.4" />
-			<dependency id="virtualbox" version="4.1.4" />
-			<dependency id="putty" version="0.61" />
+			<dependency id="virtualbox" version="4.2.4" />
+			<dependency id="putty" version="0.62" />
     </dependencies>
   </metadata>
 </package>

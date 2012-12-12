@@ -1,1 +1,1 @@
-Install-ChocolateyPackage "jruby" "exe" "-q" "http://jruby.org.s3.amazonaws.com/downloads/1.6.4/jruby_windowsjre_1_6_4.exe" "http://jruby.org.s3.amazonaws.com/downloads/1.6.4/jruby_windows_x64_jre_1_6_4.exe"
+Install-ChocolateyPackage "jruby" "exe" "-q" "http://jruby.org.s3.amazonaws.com/downloads/1.7.1/jruby_windows_1_7_1.exe" "http://jruby.org.s3.amazonaws.com/downloads/1.7.1/jruby_windows_x64_1_7_1.exe"
