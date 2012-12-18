@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
-<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<package 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>vagrant</id>
     <title>Vagrant</title>
@@ -11,9 +13,5 @@
     <projectUrl>http://vagrantup.com</projectUrl>
     <tags>vagrant</tags>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-		<dependencies>
-			<dependency id="virtualbox" version="4.2.4" />
-			<dependency id="putty" version="0.62" />
-    </dependencies>
   </metadata>
 </package>
