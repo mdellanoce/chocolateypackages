@@ -3,7 +3,7 @@
   <metadata>
     <id>jruby</id>
     <title>JRuby</title>
-    <version>1.6.4</version>
+    <version>1.7.1</version>
     <authors>Charles Oliver Nutter, Thomas Enebo, Nick Sieger, Ola Bini</authors>
     <owners>Mike Dellanoce</owners>
     <summary>JRuby is a 100% Java implementation of the Ruby programming language.</summary>
